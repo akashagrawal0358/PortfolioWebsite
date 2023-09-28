@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c13eb4969b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="nav-item">
+        <span>
+          <span style="color: red">A</span>kash
+          <span style="color: red">A</span>grawal</span
+        >
+        <ul class="list">
+          <li><a href="#section1">Home</a></li>
+          <li><a href="#section2">About me</a></li>
+          <li><a href="#section3">Services</a></li>
+          <li><a href="#section4">Works</a></li>
+          <li><a href="#section5"> Contact</a></li>
+        
+        </ul>
+        
+      </div>
+    </div>
+
+    <section id="section1" class="bg-image">
+      <div class="text-over">
+        <div class="container1">
+          <div class="IntroText" style="padding-top: 22vh; margin-left: 10vw">
+            <span style="color: white; font-weight: 600; font-size: 2rem"
+              >Hiii</span
+            >
+            <div>
+              <span style="font-size: 1.8rem">I am </span>
+              <span style="color: red; font-size: 2.5rem; font-weight: 600"
+                >Akash Agrawal...</span
+              >
+              <br />
+              <span>a passionate</span>
+              <span style="color: black; font-weight: 600"
+                >Full Stack Developer</span
+              >
+            </div>
+            <div style="display: flex; gap: 1rem; padding: 3rem 0">
+              <button class="btn hire" style="width: 9rem; cursor: pointer">
+                Hire me
+              </button>
+              <a href="Images/Akash2020Acc.pdf" download>
+                <button
+                  class="btn getresume"
+                  style="width: 9rem; cursor: pointer"
+                >
+                  Get Resume
+                </button></a
+              >
+            </div>
+            <span class="connect" style="color: white; padding-right: 5rem; font-weight: 600"
+              >let's connect me on different platforms</span
+            >
+            <div
+              class="IntroText-Icons"
+              style="display: flex; gap: 1rem; padding-top: 1rem"
+            >
+              <a href="www.google.com"><img src="Images\instagram32.png" /></a>
+              <a href="www.google.com"><img src="Images\github32.png" /></a>
+              <a href="www.google.com"><img src="Images\twitter32.png" /></a>
+              <a href="www.google.com"><img src="Images\linkedin32.png" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+   
+    <section id="section2">
+      <div class="container">
+        <div class="about-h">About</div>
+        <div class="row rowimg">
+          <div class="about-col-img">
+            <img src="Images/Ak2.jpg" alt="img not found" />
+          </div>
+          <div class="about-col-text">
+            <p style="font-size: 1rem">
+              Hello, I'm Akash Agrawal, a college student with a strong passion for becoming a web developer. I'm currently studying at Ajay Kumar Garg Engineering College. My main focus is on the MERN stack, which includes MongoDB, Express.js, React.js, and Node.js. I find this technology stack fascinating because it allows me to create powerful and interactive web applications.
+            </p>
+            <p style="font-size: 1rem;">
+              My goal is to blend what I'm learning in college with practical experience to create innovative and user-friendly solutions. I enjoy designing responsive user interfaces using React.js and building robust server-side APIs with Node.js and Express. I'm committed to improving my skills and exploring new opportunities in the field.
+            </p>
+
+             
+            <div class="about-tabs">
+              <p class="tab-links active-link" onclick="opentab('education')">
+                Education
+              </p>
+              <p class="tab-links" onclick="opentab('skills')">Skills</p>
+              <p class="tab-links" onclick="opentab('experience')">
+                Experience
+              </p>
+            </div>
+            <div class="tab-contents active-tab" id="education">
+              <ul>
+                <li>
+                  <span>Class 10 </span><br />2017<br />Wisdom Public School
+                </li>
+                <li>
+                  <span>Class 12 </span><br />2019<br />Gagan Public School
+                </li>
+                <li>
+                  <span>B.Tech </span><br />2024<br />Ajay Kumar Garg
+                  Engineering College
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="skills">
+              <ul>
+                <li>
+                  <span>Languages </span><br />HTML, CSS, JAVASCRIPT, REACTJS,
+                  NODEJS
+                </li>
+                <li><span>Database </span><br />MONGODB</li>
+                <li><span>Domain </span><br />FULL STACK</li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="experience">
+              <ul>
+                <li>
+                  <span style="font-weight: 700 ;font-size: larger; color: black;">Projects:- </span><br>
+                </li>
+                <li><span>E-Commerce Website </span><br />Using HTML, CSS, JS, Reactjs</li>
+                <li><span>WaterOrdering Website </span><br />Using HTML, CSS, JS, Reactjs</li>
+                <li><span>HealthRecord Website </span><br />Using HTML, CSS, JS, Reactjs, Nodejs, Express, Mongodb, </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <section id="section3">
+      <div class="container">
+        <div class="services-h">My Services</div>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i><br>
+            <h2>Front-End Development</h2>
+            <p style="color: white">
+              I am a good Front-End Developer. I worked on various different frontend projects.
+              In developing FrontEnd , I uses languages -  HTML, CSS, JAVASCRIPT, Reactjs 
+              but i can work in other languages too .
+            </p>
+          </div>
+          <div>
+            <i class="fa-solid fa-code"></i><br>
+            <h2>Back-End Development</h2>
+            <p style="color: white">
+              I am learning developing backend, I worked on Nodejs, Express in my projects to 
+              connect my front-End with backend.
+              I use MongoDB database to store my data and do CRED operations on that data.
+              
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section4">
+      <div class="container">
+        <div class="portfolio-h">My Works</div>
+        <div class="work-list">
+          <div class="work">
+            <img src="Images/ecommerce1.jpg" alt="img not found" />
+            <div class="work-layer">
+              <h3>E-Commerce Website</h3>
+              <p>Helps to buy items online and receive at your doorsteps.</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/water1.jpg" alt="img not found" />
+            <div class="work-layer">
+              <h3>WaterOrdering Website</h3>
+              <p>You can get fresh water at your doorsteps.</p>
+            </div>
+          </div>
+          <div class="work">
+            <img src="Images/health1.jpg" alt="img not found" />
+            <div class="work-layer">
+              <h3>Health Record Website</h3>
+              <p>Patient can store their medical record on this website.</p>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btnn">See More </a>
+      </div>
+    </section>
+
+    <section id="section5">
+        <div id="contact">
+          <div class="container">
+            <div class="row rowcontact" >
+              <div class="contact-left">
+                <h2 class="sub-title">Contact Me</h2>
+                <p>
+                  <i class="fa-solid fa-paper-plane"></i>akash26077@gmail.com
+                </p>
+                <p><i class="fa-solid fa-phone"></i>9837494284</p>
+                <div class="social-icons">
+                  <a href="www.google.com"
+                    ><img src="Images\instagram32.png"
+                  /></a>
+                  <a href="www.google.com"><img src="Images\github32.png" /></a>
+                  <a href="www.google.com"
+                    ><img src="Images\twitter32.png"
+                  /></a>
+                  <a href="www.google.com"
+                    ><img src="Images\linkedin32.png"
+                  /></a>
+                </div>
+                <a
+                  href="Images/Akash2020Acc.pdf"
+                  style="padding: 10px 20px"
+                  download
+                  class="btnn btnn2"  
+                  >Download Resume</a
+                >
+              </div>
+              <div class="contact-right">
+                <form method="post" action="https://formspree.io/f/xbjvprbe" style="padding-top: 3rem;">
+                  <input
+                    type="text"
+                    name="Name"
+                    placeholder="Your Name"
+                    autocomplete="off"
+                    required
+                  />
+                  <input
+                    type="email"
+                    name="email"
+                    placeholder="Your Email"
+                    autocomplete="off"
+                    required
+                  />
+                  <textarea
+                    name="message"
+                    placeholder="Your Message"
+                    row="6"
+                    autocomplete="off"
+                  ></textarea>
+                  <button type="submit" class="btnn btnn2">Submit</button>
+                </form>
+              </div>
+            </div>
+          </div>
+      <div class="copy">
+        <p>Copyright <i class="fa-regular fa-copyright"></i>Akash</p>
+      </div>
+
+
+        </div>
+      </div>
+    </section>
+
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+  </body>
+</html>
